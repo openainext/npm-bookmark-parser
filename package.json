@@ -18,13 +18,17 @@
   ],
   "author": "Logan Howlett",
   "dependencies": {
-    "jsdom": "~0.6.5",
-    "grunt": "~0.4.1"
+    "jsdom": "~0.6.5"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "6b8eae5f7541efda6f3b83c1ee37c18a84398bda",
   "bugs": {
     "url": "https://github.com/aponxi/npm-bookmark-parser/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0"
   }
 }
