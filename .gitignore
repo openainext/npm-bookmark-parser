@@ -12,3 +12,11 @@ logs
 results
 
 npm-debug.log
+
+node_modules/*
+
+*.sublime-*
+
+index.js
+test/test.js
+Gruntfile.js

@@ -1,0 +1,35 @@
+{
+  "name": "npm-bookmark-parser",
+  "version": "0.1.01",
+  "description": "Parses Chrome bookmarks file into JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aponxi/npm-bookmark-parser.git"
+  },
+  "keywords": [
+    "bookmark",
+    "parse",
+    "chrome",
+    "bookmarks"
+  ],
+  "author": "Logan Howlett",
+  "dependencies": {
+    "jsdom": "~0.6.5"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/aponxi/npm-bookmark-parser/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0"
+  }
+}
