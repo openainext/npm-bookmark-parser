@@ -1,6 +1,6 @@
 {
   "name": "npm-bookmark-parser",
-  "version": "0.1.0",
+  "version": "0.1.01",
   "description": "Parses Chrome bookmarks file into JSON format",
   "main": "index.js",
   "scripts": {
