@@ -1,6 +1,7 @@
 jsdom = require "jsdom"
 fs = require("fs");
 
+
 parsehtml = (file, callback) ->
   html = fs.readFileSync(file).toString();
   jsdom.env
